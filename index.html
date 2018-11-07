@@ -5,22 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FCC - Survey Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="title">Survey Form</h1>
+    <h1 id="title" class="text-center">Survey Form</h1>
 
     <div class="container">
-        <p id="discription">Let us know how we can improve freeCodeCamp</p>
+        <p id="discription" class="text-center">Let us know how we can improve freeCodeCamp</p>
 
         <form action="#" id="survey-form">
 
-            <label for="name" id="name-label"><span class="required">*</span> Name:</label>
+            <label for="name" id="name-label"><span class="req">*</span> Name:</label>
             <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
 
-            <label for="email" id="email-label"><span class="required">*</span>Email:</label>
+            <label for="email" id="email-label"><span class="req">*</span>Email:</label>
             <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
 
-            <label for="age" id="number-label"><span class="required">*</span>Age Group:</label>
+            <label for="age" id="number-label"><span class="req">*</span>Age Group:</label>
             <input type="number" name="age" id="age" placeholder="Age Group" min="10" max="100" required>
 
             <label for="dropdown">Which option best describes your current role?</label>
@@ -34,7 +36,7 @@
             </select>
 
             <div>
-                <p>How likely is that you would recommend freeCodeCamp to a friend?</p>
+                <p><span class="req">*</span>How likely is that you would recommend freeCodeCamp to a friend?</p>
                 <div>
                     <input type="radio" name="refer" id="definitely" value="definitely">
                     <label for="definitely">Definitely</label>
