@@ -1,5 +1,5 @@
 body{
-    background: #477881;
+    background: #90c9d3;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -20,18 +20,90 @@ body{
 }
 
 #discription{
-    font-size: 1rem;
+    font-size: 1.1rem;
+}
+
+.row{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.row__6{
+    width: 50%;
+}
+
+.row__6 > p{
+    margin: 0;
+}
+
+.display-col{
+    flex-direction: column;
+}
+
+.left-col{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1.25rem;
+}
+
+.right-col{
+    display: flex;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+textarea,
+select[name=dropdown],
+select[name=dropdown1]
+{
+    padding: .35rem;
+    width: 250px;
+    border: 1px solid #c0c0c0;
+}
+
+.extra-pb{
+    padding-bottom: .5rem;
+}
+
+.align-start{
+    align-items: flex-start;
+}
+
+.main-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* .row--space{
+    margin-right: -20px;
+}
+
+.row > div{
+    padding-right: 20px;
 }
 
 .row::after{
     content: "";
     clear: both;
     display: table;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
-.row__6{
-    float: left;
+.right__align{
+   
+    text-align: right;
+    padding-right: 20px;
     width: 50%;
 }
+
+.float__left{
+    float: right;
+    width: 50%;
+} */

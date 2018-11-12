@@ -17,37 +17,37 @@
         <form action="#" id="survey-form">
 
             <div class="row">
-                <div class="row__6">
-                    <label for="name" id="name-label"><span class="req">*</span> Name:</label> 
+                <div class="row__6 left-col">
+                    <label for="name" id="name-label"><span>*</span> Name:</label> 
                 </div>
-                <div class="row__6">
+                <div class="row__6 right-col">
                     <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
                 </div>
             </div>
             
             <div class="row">
-                <div class="row__6">
+                <div class="row__6 left-col">
                     <label for="email" id="email-label"><span class="req">*</span>Email:</label>
                 </div>
-                <div class="row__6">
+                <div class="row__6 right-col">
                         <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
                 </div>
             </div>
 
             <div class="row">
-                <div class="row__6">
+                <div class="row__6 left-col">
                     <label for="age" id="number-label"><span class="req">*</span>Age Group:</label>
                 </div>
-                <div class="row__6">
+                <div class="row__6 right-col">
                     <input type="number" name="age" id="age" placeholder="Age Group" min="10" max="100" required>
                 </div>
             </div>
 
             <div class="row">
-                <div class="row__6">
+                <div class="row__6 left-col">
                     <label for="dropdown">Which option best describes your current role?</label>
                 </div>
-                <div class="row__6">
+                <div class="row__6 right-col">
                     <select name="dropdown" id="dropdown">
                         <option class="select_option" value="">Select an Option</option>
                         <option value="student" selected>Student</option>
@@ -60,19 +60,19 @@
             </div>    
 
             <div class="row">
-                <div class="row__6">
-                    <p><span class="req">*</span>How likely is that you would recommend freeCodeCamp to a friend?</p>
+                <div class="row__6 left-col align-start">
+                    <p><span class="req">*</span>How likely is that you would recommend </br> freeCodeCamp to a friend?</p>
                 </div>
-                <div class="row__6">
-                    <div>
+                <div class="row__6 right-col display-col">
+                    <div class="extra-pb">
                         <input type="radio" name="refer" id="definitely" value="definitely">
                         <label for="definitely">Definitely</label>
                     </div>
-                    <div>
+                    <div class="extra-pb">
                         <input type="radio" name="refer" id="maybe" value="maybe">
                         <label for="maybe">Maybe</label>
                     </div>
-                    <div>
+                    <div class="extra-pb">
                         <input type="radio" name="refer" id="not-sure" value="not-sure">
                         <label for="not-sure">Not sure</label>
                     </div>
@@ -80,10 +80,10 @@
             </div>
 
             <div class="row">
-                <div class="row__6">
+                <div class="row__6 left-col">
                     <label for="dropdown1">What do you like most in FCC:</label>
                 </div>
-                <div class="row__6">
+                <div class="row__6 right-col">
                     <select name="dropdown1" id="dropdown1">
                         <option class="select_option" value="">Select an Option</option>
                         <option value="challenges">Challenges</option>
@@ -95,51 +95,51 @@
             </div>
             
             <div class="row">
-                <div class="row__6">
-                    <p>Things that should be improved in the future (Check all that apply):</p>
+                <div class="row__6 left-col align-start">
+                    <p>Things that should be improved in the future </br> (Check all that apply):</p>
                 </div>
-                <div class="row__6">
-                    <div>
+                <div class="row__6 right-col display-col">
+                    <div class="extra-pb">
                         <input type="checkbox" name="improve" id="front-end-projects" value="front-end-projects">
                         <label for="front-end-projects">Front-end Projects</label>
                     </div>
-                    <div>
+                    <div class="extra-pb">
                         <input type="checkbox" name="improve" id="back-end-projects" value="back-end-projects">
                         <label for="back-end-projects">Back-end Projects</label>
                     </div>
-                    <div>
+                    <div class="extra-pb">
                         <input type="checkbox" name="improve" id="data-visualization" value="data-visualization">
                         <label for="data-visualization">Data Visualization</label>
                     </div>
-                    <div>
+                    <div class="extra-pb">
                         <input type="checkbox" name="improve" id="Challenges" value="Challenges">
                         <label for="Challenges">Challenges</label>
                     </div>
-                    <div>
+                    <div class="extra-pb">
                         <input type="checkbox" name="improve" id="open-source" value="open-source">
                         <label for="open-source">Open Source Community</label>
                     </div>
-                    <div>
+                    <div class="extra-pb">
                         <input type="checkbox" name="improve" id="gitter" value="gitter">
                         <label for="gitter">Gitter help rooms</label>
                     </div>
-                    <div>
+                    <div class="extra-pb">
                         <input type="checkbox" name="improve" id="videos" value="videos">
                         <label for="videos">Videos</label>
                     </div>
-                    <div>
+                    <div class="extra-pb">
                         <input type="checkbox" name="improve" id="meetups" value="meetups">
                         <label for="meetups">City Meetups</label>
                     </div>
-                    <div>
+                    <div class="extra-pb">
                         <input type="checkbox" name="improve" id="wiki" value="wiki">
                         <label for="wiki">Wiki</label>
                     </div>
-                    <div>
+                    <div class="extra-pb">
                         <input type="checkbox" name="improve" id="forum" value="forum">
                         <label for="forum">Forum</label>
                     </div>
-                    <div>
+                    <div class="extra-pb">
                         <input type="checkbox" name="improve" id="additional-courses" value="additional-courses">
                         <label for="additional-courses">Additional Courses</label>
                     </div>
@@ -147,16 +147,16 @@
             </div>
 
             <div class="row">
-                <div class="row__6">
+                <div class="row__6 left-col align-start">
                     <label for="message">Any Comments or Suggestions?</label>
                 </div>
-                <div class="row__6">
-                    <textarea name="message" id="message" cols="20" placeholder="Enter your comments"></textarea>
+                <div class="row__6 right-col">
+                    <textarea name="message" id="message" cols="25" placeholder="Enter your comments..."></textarea>
                 </div>
             </div>
 
             <div class="row">
-                <div class="text-center">
+                <div class="main-btn">
                     <input type="submit" value="submit" id="submit">
                 </div>
             </div>
