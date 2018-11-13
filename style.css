@@ -52,6 +52,10 @@ body{
     display: flex;
 }
 
+.left-col > p span{
+    display: block;
+}
+
 input[type=text],
 input[type=email],
 input[type=number],
@@ -94,6 +98,36 @@ textarea
     background: #028197;
 }
 
+
+@media (max-width: 600px){
+    .container{
+        width: auto;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .row__6{
+        width: 100%;
+    }
+
+    .left-col{
+        justify-content: flex-start;
+        padding-bottom: .625rem;
+    }
+
+    .left-col > p span{
+        display: inline;
+    }
+}
+
+
+@media (max-width: 900px){
+    .container{
+        width: auto;
+    }
+}
 
 
 
